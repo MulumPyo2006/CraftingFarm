@@ -1,0 +1,31 @@
+.WaterBucket {
+    -fx-background-image: url(Image/WaterBucket.png);
+    -fx-background-position: center;
+    -fx-background-size: cover;
+
+    -fx-background-color: transparent;
+}
+
+.Well {
+    -fx-background-image: url(Image/Well.png);
+    -fx-background-position: center;
+    -fx-background-size: cover;
+
+    -fx-background-color: transparent;
+}
+
+.Grass {
+    -fx-background-image: url(Image/Grass.png);
+    -fx-background-position: center;
+    -fx-background-size: cover;
+
+    -fx-background-color: transparent;
+}
+
+.Grass:hover {
+    -fx-background-image: url(Image/GrassTwo.png);
+    -fx-background-position: center;
+    -fx-background-size: cover;
+
+    -fx-background-color: transparent;
+}

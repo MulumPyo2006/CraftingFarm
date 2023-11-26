@@ -1,0 +1,189 @@
+.LoginGUI {
+    -fx-background-image: url(Image/LoginGui.png);
+    -fx-background-position: center;
+    -fx-background-size: cover;
+}
+
+.EscapeGUI {
+    -fx-background-image: url(Image/EscapeGui.png);
+    -fx-background-position: center;
+    -fx-background-size: cover;
+}
+
+.SignUpGUI {
+    -fx-background-image: url(Image/SignUpGui.png);
+    -fx-background-position: center;
+    -fx-background-size: cover;
+}
+
+.SignUpButton {
+    -fx-background-image: url(Image/SignUpButton.png);
+    -fx-background-position: center;
+    -fx-background-size: cover;
+
+    -fx-background-color: transparent;
+}
+
+.SignUpButton:hover {
+    -fx-background-image: url(Image/SignUpButtonTwo.png);
+    -fx-background-position: center;
+    -fx-background-size: cover;
+
+    -fx-background-color: transparent;
+}
+
+.XButton {
+    -fx-background-image: url(Image/Xbutton.png);
+    -fx-background-position: center;
+    -fx-background-size: cover;
+
+    -fx-background-color: transparent;
+}
+
+.LoginPressButton {
+    -fx-background-color: 0,0,0,0;
+}
+
+.BackGroundButton {
+    -fx-background-image: url(Image/BackGroundButton.png);
+    -fx-background-position: center;
+    -fx-background-size: cover;
+
+    -fx-background-color: transparent;
+}
+
+.BackGroundButton:hover {
+    -fx-background-image: url(Image/BackGroundButtonTwo.png);
+    -fx-background-position: center;
+    -fx-background-size: cover;
+
+    -fx-background-color: transparent;
+}
+
+.LoginButton {
+    -fx-background-image: url(Image/LoginButton.png);
+    -fx-background-position: center;
+    -fx-background-size: cover;
+
+    -fx-background-color: transparent;
+}
+
+.LoginButton:pressed {
+    -fx-background-image: url(Image/LoginButtonTwo.png);
+    -fx-background-position: center;
+    -fx-background-size: cover;
+
+    -fx-background-color: transparent;
+}
+
+.TextField {
+    -fx-background-image: url(Image/TextField.png);
+    -fx-background-position: center;
+    -fx-background-size: cover;
+
+    -fx-background-color: transparent;
+
+    -fx-text-fill: black;
+}
+
+.TextField:focused {
+    -fx-background-image: url(Image/TextFieldThree.png);
+    -fx-background-position: center;
+    -fx-background-size: cover;
+
+    -fx-background-color: transparent;
+
+    -fx-text-fill: #cccccc;
+}
+
+.YesButton {
+    -fx-background-image: url(Image/YesButtonOne.png);
+    -fx-background-size: cover;
+    -fx-background-position: center;
+
+    -fx-background-color: transparent;
+}
+
+.YesButton:hover {
+    -fx-background-image: url(Image/YesButtonTwo.png);
+    -fx-background-size: cover;
+    -fx-background-position: center;
+
+    -fx-background-color: transparent;
+}
+
+.GameOffButton {
+    -fx-background-image: url(Image/OffButton.png);
+    -fx-background-size: cover;
+    -fx-background-position: center;
+
+    -fx-background-color: transparent;
+}
+
+.GameOffButton:hover {
+    -fx-background-image: url(Image/OffButtonTwo.png);
+    -fx-background-size: cover;
+    -fx-background-position: center;
+
+    -fx-background-color: transparent;
+}
+
+.GameOffButton:pressed {
+    -fx-background-image: url(Image/BackButton.png);
+    -fx-background-size: cover;
+    -fx-background-position: center;
+
+    -fx-background-color: transparent;
+}
+
+.Grass {
+    -fx-background-image: url(../Object/Image/Grass.png);
+    -fx-background-size: cover;
+    -fx-background-position: center;
+
+    -fx-background-color: transparent;
+}
+
+.Grass:hover {
+    -fx-background-image: url(../Object/Image/GrassTwo.png);
+    -fx-background-size: cover;
+    -fx-background-position: center;
+
+    -fx-background-color: transparent;
+}
+
+.Well {
+    -fx-background-image: url(../Object/Image/Well.png);
+    -fx-background-size: cover;
+    -fx-background-position: center;
+
+    -fx-background-color: transparent;
+}
+
+.CraftSeedsGui {
+    -fx-background-image: url(Image/CraftSeedsGui.png);
+    -fx-background-size: cover;
+    -fx-background-position: center;
+
+    -fx-background-color: transparent;
+}
+
+.CraftSeedsGui:hover {
+    -fx-background-image: url(Image/CraftSeedsGuiTwo.png);
+    -fx-background-size: cover;
+    -fx-background-position: center;
+
+    -fx-background-color: transparent;
+}
+
+.HaveWheatGui {
+    -fx-background-image: url(Image/HaveWheatGui.png);
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}
+
+.PlantingSeedsGui {
+    -fx-background-image: url(Image/PlantingSeedsGui.png);
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}

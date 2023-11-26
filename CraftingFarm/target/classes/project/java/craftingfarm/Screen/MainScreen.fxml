@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.net.URL?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane prefHeight="1010.0" prefWidth="1920.0" styleClass="StartScreen" stylesheets="@ScreenSheet.css" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="project.java.craftingfarm.GameController">
+   <children>
+      <Pane fx:id="screenBackGround" prefHeight="1010.0" prefWidth="1920.0">
+         <children>
+            <VBox fx:id="loginGui" layoutX="563.0" layoutY="-900.0" prefHeight="797.0" prefWidth="795.0" styleClass="LoginGUI">
+               <children>
+                  <Pane layoutY="-900.0" prefHeight="711.0" prefWidth="795.0">
+                     <children>
+                        <TextField fx:id="loginId" layoutX="282.0" layoutY="216.0" prefHeight="80.0" prefWidth="350.0" styleClass="TextField" stylesheets="@../GUI/GUISheet.css">
+                           <font>
+                              <Font size="30.0" />
+                           </font>
+                        </TextField>
+                        <TextField fx:id="loginPw" layoutX="282.0" layoutY="323.0" prefHeight="80.0" prefWidth="350.0" styleClass="TextField" stylesheets="@../GUI/GUISheet.css">
+                           <font>
+                              <Font size="30.0" />
+                           </font>
+                        </TextField>
+                        <Button fx:id="changeSceneBtn" layoutX="180.0" layoutY="536.0" mnemonicParsing="false" onAction="#changeScenePlay" prefHeight="123.0" prefWidth="444.0" styleClass="LoginButton" />
+                        <Button layoutX="303.0" layoutY="453.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="147.0" styleClass="BackGroundButton" stylesheets="@../GUI/GUISheet.css" text="Find ID">
+                           <font>
+                              <Font name="Tw Cen MT Condensed Extra Bold" size="25.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="465.0" layoutY="453.0" mnemonicParsing="false" onAction="#showSignUpGui" prefHeight="52.0" prefWidth="147.0" styleClass="BackGroundButton" text="Sign Up">
+                           <font>
+                              <Font name="Tw Cen MT Condensed Extra Bold" size="25.0" />
+                           </font>
+                        </Button>
+                        <Button layoutX="569.0" mnemonicParsing="false" onAction="#deleteLoginOffGui" prefHeight="131.0" prefWidth="147.0" styleClass="XButton" stylesheets="@../GUI/GUISheet.css" />
+                     </children></Pane>
+               </children>
+               <stylesheets>
+                  <URL value="@../GUI/GUISheet.css" />
+                  <URL value="@../GUI/GUISheet.css" />
+               </stylesheets>
+            </VBox>
+            <VBox fx:id="signUpGui" layoutX="563.0" layoutY="-900.0" prefHeight="746.0" prefWidth="795.0">
+               <children>
+                  <Pane prefHeight="820.0" prefWidth="795.0" styleClass="SignUpGUI" stylesheets="@../GUI/GUISheet.css">
+                     <children>
+                        <Button layoutX="642.0" mnemonicParsing="false" onAction="#deleteSignUpGui" opacity="0.0" prefHeight="137.0" prefWidth="153.0" />
+                        <TextField fx:id="signUpId" layoutX="302.0" layoutY="150.0" prefHeight="80.0" prefWidth="350.0" styleClass="TextField" stylesheets="@../GUI/GUISheet.css">
+                           <font>
+                              <Font size="30.0" />
+                           </font></TextField>
+                        <TextField fx:id="signUpPw" layoutX="302.0" layoutY="261.0" prefHeight="80.0" prefWidth="350.0" styleClass="TextField" stylesheets="@../GUI/GUISheet.css">
+                           <font>
+                              <Font size="30.0" />
+                           </font></TextField>
+                        <TextField fx:id="signUpName" layoutX="302.0" layoutY="481.0" prefHeight="80.0" prefWidth="350.0" styleClass="TextField" stylesheets="@../GUI/GUISheet.css">
+                           <font>
+                              <Font size="30.0" />
+                           </font></TextField>
+                        <Line endX="329.0" layoutX="357.0" layoutY="419.0" scaleY="13.0" startX="-226.0" />
+                        <Text layoutX="249.0" layoutY="198.0" strokeType="OUTSIDE" strokeWidth="0.0" text="ID : " wrappingWidth="78.18359375">
+                           <font>
+                              <Font name="Tw Cen MT Condensed Extra Bold" size="25.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="244.0" layoutY="309.0" strokeType="OUTSIDE" strokeWidth="0.0" text="PW :">
+                           <font>
+                              <Font name="Tw Cen MT Condensed Extra Bold" size="25.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="221.0" layoutY="529.0" strokeType="OUTSIDE" strokeWidth="0.0" text="NAME : " wrappingWidth="123.0">
+                           <font>
+                              <Font name="Tw Cen MT Condensed Extra Bold" size="25.0" />
+                           </font>
+                        </Text>
+                        <Text fill="#2cdd08" layoutX="161.0" layoutY="198.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.0" text="필수 O">
+                           <font>
+                              <Font name="Tw Cen MT Condensed Extra Bold" size="25.0" />
+                           </font>
+                        </Text>
+                        <Text fill="#2cdd08" layoutX="161.0" layoutY="309.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.0" text="필수 O">
+                           <font>
+                              <Font name="Tw Cen MT Condensed Extra Bold" size="25.0" />
+                           </font>
+                        </Text>
+                        <Text fill="#c92e20" layoutX="144.0" layoutY="529.0" stroke="BLACK" strokeType="OUTSIDE" strokeWidth="0.0" text="필수 X">
+                           <font>
+                              <Font name="Tw Cen MT Condensed Extra Bold" size="25.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="328.0" layoutY="246.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="297.109375">
+                           <font>
+                              <Font size="21.0" />
+                           </font>
+                        </Text>
+                        <Text layoutX="328.0" layoutY="367.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Text" wrappingWidth="297.109375">
+                           <font>
+                              <Font size="21.0" />
+                           </font>
+                        </Text>
+                        <Button fx:id="joinButton" layoutX="181.0" layoutY="601.0" mnemonicParsing="false" prefHeight="131.0" prefWidth="456.0" styleClass="SignUpButton" stylesheets="@../GUI/GUISheet.css" />
+                     </children></Pane>
+               </children>
+            </VBox>
+         </children>
+      </Pane>
+      <Button fx:id="showGameOffGuiButton" layoutX="1626.0" layoutY="568.0" mnemonicParsing="false" onAction="#showGameOffGui" prefHeight="260.0" prefWidth="262.0" styleClass="GameOffButton">
+         <stylesheets>
+            <URL value="@ScreenSheet.css" />
+            <URL value="@../GUI/GUISheet.css" />
+         </stylesheets>
+      </Button>
+      <VBox fx:id="escapeGui" layoutX="611.0" layoutY="-900.0" prefHeight="700.0" prefWidth="700.0">
+         <children>
+            <Pane prefHeight="900.0" prefWidth="900.0" styleClass="EscapeGUI" stylesheets="@../GUI/GUISheet.css">
+               <children>
+                  <Button fx:id="loginGuiButton" layoutX="60.0" layoutY="119.0" mnemonicParsing="false" onAction="#deleteGameOffGui" opacity="0.0" prefHeight="99.0" prefWidth="110.0" text="Button" />
+                  <Button fx:id="gameOffButton" layoutX="100.0" layoutY="478.0" mnemonicParsing="false" onAction="#gameOff" prefHeight="89.0" prefWidth="500.0" styleClass="YesButton" stylesheets="@ScreenSheet.css" />
+               </children>
+            </Pane>
+         </children>
+      </VBox>
+      <Button layoutX="188.0" layoutY="789.0" mnemonicParsing="false" onAction="#showLoginGui" prefHeight="123.0" prefWidth="1536.0" styleClass="LoginPressButton" stylesheets="@../GUI/GUISheet.css" />
+   </children>
+</AnchorPane>

@@ -1,0 +1,11 @@
+.StartScreen {
+    -fx-background-image: url(Image/StartScreen.png);
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}
+
+.FarmScreen {
+    -fx-background-image: url(Image/FarmScreen.png);
+    -fx-background-size: cover;
+    -fx-background-position: center;
+}
